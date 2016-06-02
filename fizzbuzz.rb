@@ -240,3 +240,21 @@ solution = MAP[RANGE[ONE][FITTEEN]][-> n {
 	}]
 
 to_array(solution)
+
+# def max(m, n)
+# 	if m > n
+# 		m
+# 	else
+# 		n
+# 	end
+# end
+
+MAX = -> m { -> n {
+	IF[IS_LESS_OR_EQUAL[m][n]][
+		n
+	][
+		m
+	]
+	}}
+
+p to_integer(MAX[TWO][THREE])
