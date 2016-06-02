@@ -239,8 +239,6 @@ solution = MAP[RANGE[ONE][FITTEEN]][-> n {
 	]]]
 	}]
 
-to_array(solution)
-
 # def max(m, n)
 # 	if m > n
 # 		m
@@ -257,4 +255,4 @@ MAX = -> m { -> n {
 	]
 	}}
 
-p to_integer(MAX[TWO][THREE])
+p to_integer(MAX[HUNDRED][THREE])
